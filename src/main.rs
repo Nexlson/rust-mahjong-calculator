@@ -1,4 +1,7 @@
+mod bidings;
+
 fn main() {
-    println!("Hello, world!");
-    let hello = "123";
+
+    bidings::generate_combinations();
+
 }
